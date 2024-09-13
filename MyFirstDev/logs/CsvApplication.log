@@ -1,0 +1,40 @@
+9月 12, 2024 9:35:38 午後 tools.csv.com.LoggerUtil logInfo
+情報: アプリケーションを開始しました。クラス:CsvProcessor
+9月 12, 2024 9:35:38 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの異常確認を行うメソッドを呼び出しました。クラス:CsvProcessor,ファイル:aaa.csv
+9月 12, 2024 9:35:38 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの異常確認を開始しました。クラス:CsvFileHandler,メソッド:confirmAbnormalities,ファイル:aaa.csv
+9月 12, 2024 9:35:38 午後 tools.csv.com.LoggerUtil logWarning
+警告: ファイルが存在しません。クラス:CsvFileHandler,メソッド:confirmAbnormalities,ファイル:aaa.csv
+9月 12, 2024 9:35:38 午後 tools.csv.com.LoggerUtil logWarning
+警告: ファイルへの読み書き処理に失敗しました。exception.csv.com.FileIsNotExistException: ファイルが存在しません。
+9月 12, 2024 9:38:34 午後 tools.csv.com.LoggerUtil logInfo
+情報: アプリケーションを開始しました。クラス:CsvProcessor
+9月 12, 2024 9:38:34 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの異常確認を行うメソッドを呼び出しました。クラス:CsvProcessor,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:34 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの異常確認を開始しました。クラス:CsvFileHandler,メソッド:confirmAbnormalities,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:34 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの異常確認が終了しました。クラス:CsvFileHandler,メソッド:confirmAbnormalities,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:34 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの読み込み処理を行うメソッドを呼び出しました。クラス:CsvProcessor,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:34 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの読み込み処理を開始しました。クラス:CsvFileHandler,メソッド:readCsv,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:35 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの読み込み処理が完了しました。クラス:CsvFileHandler,メソッド:readCsv,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:35 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルのフィルター処理を行うメソッドを呼び出しました。クラス:CsvProcessor,ファイル:PersonalInfo.csv
+9月 12, 2024 9:38:35 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイル内データのフィルター処理を開始しました。クラス:DataFilter,メソッド:filteredFinalResult
+9月 12, 2024 9:38:37 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイル内データのフィルター処理を完了しました。クラス:DataFilter,メソッド:filteredFinalResult
+9月 12, 2024 9:38:37 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルへの書き込み処理を行うメソッドを呼び出しました。クラス:CsvProcessor,ファイル:PersonalInfo_bk.csv
+9月 12, 2024 9:38:37 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの書き込み処理を開始しました。クラス:CsvFileHandler,メソッド:writeToCSV,ファイル:PersonalInfo_bk.csv
+9月 12, 2024 9:38:37 午後 tools.csv.com.LoggerUtil logInfo
+情報: ファイルの書き込み処理が完了しました。クラス:CsvFileHandler,メソッド:writeToCSV,ファイル:PersonalInfo_bk.csv
+9月 12, 2024 9:38:37 午後 tools.csv.com.LoggerUtil logInfo
+情報: 出力されたデータの件数は"1件"です。クラス名:ResultDisplay,メソッド名:outputResultCount
+9月 12, 2024 9:38:37 午後 tools.csv.com.LoggerUtil logInfo
+情報: アプリケーションが正常に終了しました。クラス:CsvProcessor
